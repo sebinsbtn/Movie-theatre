@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F31A287-6FD4-48BF-A35E-BE8A5D84C7DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Movietheatre.My.MyApplication</StartupObject>
+    <RootNamespace>Movietheatre</RootNamespace>
+    <AssemblyName>Movietheatre</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\sebin\Desktop\Project final\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Movie theatre management system</ProductName>
+    <PublisherName>Sebin</PublisherName>
+    <MinimumRequiredVersion>1.0.0.6</MinimumRequiredVersion>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Movietheatre.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Movietheatre.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7FAB5347E00F8D506704FC1BA6A26A6111062655</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Movietheatre_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.3.5.0\lib\net45\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="MetroFramework" />
+    <Import Include="MetroFramework.Animation" />
+    <Import Include="MetroFramework.Components" />
+    <Import Include="MetroFramework.Controls" />
+    <Import Include="MetroFramework.Drawing" />
+    <Import Include="MetroFramework.Drawing.Html" />
+    <Import Include="MetroFramework.Fonts" />
+    <Import Include="MetroFramework.Forms" />
+    <Import Include="MetroFramework.Interfaces" />
+    <Import Include="MetroFramework.Native" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adduser.Designer.vb">
+      <DependentUpon>adduser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adduser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpasschange.Designer.vb">
+      <DependentUpon>adminpasschange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminpasschange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="cancel.Designer.vb">
+      <DependentUpon>cancel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelslip.Designer.vb">
+      <DependentUpon>cancelslip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cancelslip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dcr.Designer.vb">
+      <DependentUpon>dcr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dcr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distreg.Designer.vb">
+      <DependentUpon>distreg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="distreg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mcr.Designer.vb">
+      <DependentUpon>mcr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mcr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MOVIEDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MOVIEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MOVIEDataSet.vb">
+      <DependentUpon>MOVIEDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MOVIEDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MOVIEDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MOVIEDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MOVIEDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MOVIEDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MOVIEDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Moviedetail.Designer.vb">
+      <DependentUpon>Moviedetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Moviedetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moviereg.Designer.vb">
+      <DependentUpon>moviereg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="moviereg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="phoneres.Designer.vb">
+      <DependentUpon>phoneres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phoneres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phoneres2.Designer.vb">
+      <DependentUpon>phoneres2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phoneres2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phoneres3.Designer.vb">
+      <DependentUpon>phoneres3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phoneres3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phoneres4.Designer.vb">
+      <DependentUpon>phoneres4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="phoneres4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="price.Designer.vb">
+      <DependentUpon>price.vb</DependentUpon>
+    </Compile>
+    <Compile Include="price.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printticket.Designer.vb">
+      <DependentUpon>printticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ticketres2.Designer.vb">
+      <DependentUpon>ticketres2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ticketres2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ticketres4.Designer.vb">
+      <DependentUpon>ticketres4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ticketres4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resselect.Designer.vb">
+      <DependentUpon>resselect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="resselect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="show.Designer.vb">
+      <DependentUpon>show.vb</DependentUpon>
+    </Compile>
+    <Compile Include="show.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ticketres.Designer.vb">
+      <DependentUpon>ticketres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ticketres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ticketres3.Designer.vb">
+      <DependentUpon>ticketres3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ticketres3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userpasschange.Designer.vb">
+      <DependentUpon>userpasschange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="userpasschange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewmovie.Designer.vb">
+      <DependentUpon>viewmovie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewmovie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="adduser.resx">
+      <DependentUpon>adduser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminpasschange.resx">
+      <DependentUpon>adminpasschange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancel.resx">
+      <DependentUpon>cancel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelslip.resx">
+      <DependentUpon>cancelslip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dcr.resx">
+      <DependentUpon>dcr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distreg.resx">
+      <DependentUpon>distreg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mcr.resx">
+      <DependentUpon>mcr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Moviedetail.resx">
+      <DependentUpon>Moviedetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="moviereg.resx">
+      <DependentUpon>moviereg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phoneres.resx">
+      <DependentUpon>phoneres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phoneres2.resx">
+      <DependentUpon>phoneres2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phoneres3.resx">
+      <DependentUpon>phoneres3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phoneres4.resx">
+      <DependentUpon>phoneres4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="price.resx">
+      <DependentUpon>price.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printticket.resx">
+      <DependentUpon>printticket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resselect.resx">
+      <DependentUpon>resselect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="show.resx">
+      <DependentUpon>show.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketres.resx">
+      <DependentUpon>ticketres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketres2.ml-IN.resx">
+      <DependentUpon>ticketres2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketres2.resx">
+      <DependentUpon>ticketres2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketres3.resx">
+      <DependentUpon>ticketres3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketres4.resx">
+      <DependentUpon>ticketres4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userpasschange.resx">
+      <DependentUpon>userpasschange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewmovie.resx">
+      <DependentUpon>viewmovie.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MOVIEDataSet.xsc">
+      <DependentUpon>MOVIEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MOVIEDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MOVIEDataSet.xss">
+      <DependentUpon>MOVIEDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet1.xsc">
+      <DependentUpon>MOVIEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MOVIEDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MOVIEDataSet1.xss">
+      <DependentUpon>MOVIEDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet2.xsc">
+      <DependentUpon>MOVIEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MOVIEDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MOVIEDataSet2.xss">
+      <DependentUpon>MOVIEDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet3.xsc">
+      <DependentUpon>MOVIEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MOVIEDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MOVIEDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MOVIEDataSet3.xss">
+      <DependentUpon>MOVIEDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Movietheatre_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MOVIE.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\5cc128aba7c93f8de23dbd10909282721.png" />
+    <None Include="Resources\17004400-Close-icon-Stock-Vector.jpg" />
+    <None Include="Resources\imagesKY5YVL0K.jpg" />
+    <None Include="Resources\movie-icon-add-2983850.jpg" />
+    <None Include="Resources\Report1.jpg" />
+    <None Include="Resources\Braj-post-images-14.jpg" />
+    <None Include="Resources\Image1.jpg" />
+    <None Include="Resources\4.gif" />
+    <None Include="Resources\5cc128aba7c93f8de23dbd1090928272.png" />
+    <None Include="Resources\5cc128aba7c93f8de23dbd10909282723.png" />
+    <None Include="Resources\300px-Overlapping_realmode_segments.svg.png" />
+    <None Include="Resources\440px-Virtual_address_space_and_physical_address_space_relationship.svg.png" />
+    <None Include="Resources\17004400-Close-icon-Stock-Vector1.jpg" />
+    <None Include="Resources\movie-theater.jpg" />
+    <None Include="Resources\untitled.png" />
+    <None Include="Resources\Movie-Theatre.jpg" />
+    <None Include="Resources\featuretheater.jpg" />
+    <None Include="Resources\stage.jpg" />
+    <None Include="Resources\yonetici-ekrani.png" />
+    <None Include="Resources\1426770543_FilmMaker_Male_Light.png" />
+    <None Include="Resources\gnome_panel_force_quit.png" />
+    <None Include="Resources\movies.png" />
+    <None Include="Resources\suppliers.png" />
+    <None Include="Resources\icontexto_user_web20_myspace.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\hollywood_ticket.png" />
+    <None Include="Resources\golden_ticket.png" />
+    <None Include="Resources\bg.jpg" />
+    <None Include="Resources\proceed.png" />
+    <None Include="Resources\proceed_button.png" />
+    <None Include="Resources\can.png" />
+    <None Include="Resources\cancel.jpg" />
+    <None Include="Resources\cancel1.jpg" />
+    <None Include="Resources\printer-icon-39665.png" />
+    <None Include="Resources\printer-icon-396651.png" />
+    <None Include="Resources\5cc128aba7c93f8de23dbd109092827231.png" />
+    <None Include="Resources\edit_prices-512.png" />
+    <None Include="Resources\pos-feat-payroll-300x300.png" />
+    <None Include="Resources\icon-reports.jpg" />
+    <None Include="Resources\printer-icon-396652.png" />
+    <None Include="Resources\Print-icon.png" />
+    <Content Include="untitled.ico" />
+    <None Include="Resources\Ring05.wav" />
+    <None Include="Resources\call_adam_varro.wav" />
+    <None Include="Resources\tumblr_lstnur0Xmy1qzmgboo1.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

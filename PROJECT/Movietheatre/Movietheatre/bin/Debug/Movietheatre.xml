@@ -1,0 +1,672 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Movietheatre
+</name>
+</assembly>
+<members>
+<member name="T:Movietheatre.MOVIEDataSet.adminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.DistributorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.movieregDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.showDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.userDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.adminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.DistributorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.movieregRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.showRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.userRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.adminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.DistributorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.movieregRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.showRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet.userRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.adminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.DistributorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.movieregTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.showTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.userTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Movietheatre.MOVIEDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Movietheatre.MOVIEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Movietheatre.MOVIEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.UpdateAll(Movietheatre.MOVIEDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources._1426770543_FilmMaker_Male_Light">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources._17004400_Close_icon_Stock_Vector">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources._5cc128aba7c93f8de23dbd10909282723">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources._5cc128aba7c93f8de23dbd109092827231">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.bg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.can">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.cancel1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.edit_prices_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.featuretheater">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.gnome_panel_force_quit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.golden_ticket">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.hollywood_ticket">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.icon_reports">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.icontexto_user_web20_myspace">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.imagesKY5YVL0K">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.img1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.movie_icon_add_2983850">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.Movie_Theatre">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.movies">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.pos_feat_payroll_300x300">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.Print_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.printer_icon_39665">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.printer_icon_396651">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.printer_icon_396652">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.proceed">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.proceed_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.Report1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.sda">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.stage">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.suppliers">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.untitled">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Movietheatre.My.Resources.Resources.yonetici_ekrani">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Movietheatre.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.adminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.DistributorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.movieregDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.showDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.userDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.adminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.DistributorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.movieregRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.showRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.userRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.adminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.DistributorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.movieregRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.showRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2.userRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.adminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.DistributorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.movieregTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.showTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.userTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Movietheatre.MOVIEDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Movietheatre.MOVIEDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Movietheatre.MOVIEDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.UpdateAll(Movietheatre.MOVIEDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.adminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.DCRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.DistributorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.movieregDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.priceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.resdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetabDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab3DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab4DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.showDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.userDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.adminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.DCRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.DistributorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.movieregRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.priceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.resdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetabRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab3Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab4Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.showRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.userRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.adminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.DCRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.DistributorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.movieregRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.priceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.resdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetabRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab3RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.reservetab4RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.showRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1.userRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.adminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.DCRTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.DistributorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.movieregTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.priceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.resdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.reservetabTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.reservetab2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.reservetab3TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.reservetab4TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.showTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.userTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Movietheatre.MOVIEDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Movietheatre.MOVIEDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Movietheatre.MOVIEDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.UpdateAll(Movietheatre.MOVIEDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3.priceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3.priceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3.priceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3TableAdapters.priceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Movietheatre.MOVIEDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Movietheatre.MOVIEDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Movietheatre.MOVIEDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.UpdateAll(Movietheatre.MOVIEDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Movietheatre.MOVIEDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="Movietheatre.My.MySettings.MOVIEConnectionString" connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\MOVIE.accdb" providerName="System.Data.OleDb"/>
+        <add name="Movietheatre.My.MySettings.MOVIEConnectionString2" connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\sebin\Desktop\PROJECT\MOVIE.accdb" providerName="System.Data.OleDb"/>
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.1"/>
+    </startup>
+</configuration>

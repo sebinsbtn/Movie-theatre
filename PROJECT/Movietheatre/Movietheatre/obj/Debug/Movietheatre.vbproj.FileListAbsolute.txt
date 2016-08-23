@@ -1,0 +1,128 @@
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe.config
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\Movietheatre.pdb
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\Movietheatre.xml
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form1.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form2.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form3.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Resources.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.vbproj.GenerateResource.Cache
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.exe
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.xml
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.pdb
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\MOVIE.accdb
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.userpasschange.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.adminpasschange.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.distreg.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.vbprojResolveAssemblyReference.cache
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.moviereg.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.price.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.showassign.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.resselect.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres4.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres3.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.dcr.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe.manifest
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\Movietheatre.application
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.exe.manifest
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.application
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres2.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.home.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe.config
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.exe
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.xml
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.pdb
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\MOVIE.accdb
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe.manifest
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\Movietheatre.application
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\Movietheatre.pdb
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\bin\Debug\Movietheatre.xml
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.vbprojResolveAssemblyReference.cache
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.adminpasschange.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.dcr.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.distreg.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form1.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form2.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form3.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.home.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.moviereg.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Resources.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.price.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.resselect.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.showassign.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres2.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres3.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres4.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.userpasschange.resources
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.vbproj.GenerateResource.Cache
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.exe.manifest
+C:\Users\sebin\Desktop\PROJECT - Copy\Movietheatre\Movietheatre\obj\Debug\Movietheatre.application
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\ml-IN\Movietheatre.resources.dll
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres2.ml-IN.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\ml-IN\Movietheatre.resources.dll
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres4.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres3.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.cancel.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres2.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\MetroFramework.Design.dll
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\MetroFramework.dll
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.viewmovie.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.printticket.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.cancelslip.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe.config
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.exe
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.xml
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.pdb
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\MOVIE.accdb
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe.manifest
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\Movietheatre.application
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\Movietheatre.exe
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\Movietheatre.pdb
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\Movietheatre.xml
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\ml-IN\Movietheatre.resources.dll
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\MetroFramework.Design.dll
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\MetroFramework.dll
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.vbprojResolveAssemblyReference.cache
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.adminpasschange.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.cancel.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.cancelslip.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.dcr.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.distreg.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form1.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form2.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Form3.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.home.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.moviereg.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Resources.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres2.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres3.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.phoneres4.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.price.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.printticket.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.resselect.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.showassign.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres2.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres3.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres4.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.userpasschange.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.viewmovie.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.ticketres2.ml-IN.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.vbproj.GenerateResource.Cache
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\ml-IN\Movietheatre.resources.dll
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.exe.manifest
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.application
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.mcr.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.adduser.resources
+C:\Users\sebin\Desktop\PROJECT 7\Movietheatre\Movietheatre\obj\Debug\Movietheatre.form4.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.adduser.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.form4.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.mcr.resources
+C:\Users\sebin\Desktop\PROJECT\Movietheatre\Movietheatre\obj\Debug\Movietheatre.Moviedetail.resources

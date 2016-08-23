@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Movietheatre.exe" version="2.0.0.9" publicKeyToken="48350d0ae1794111" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:publisher="Sebin" asmv2:product="Movie theatre management system" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Movietheatre" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Movietheatre.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="337920">
+      <assemblyIdentity name="MetroFramework" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WTJ50fwDpmij8W8el79qqHXTTzqxueeSH2HZgNnfYDY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VxheCmLVSF2UfKbocrtPRy+PUdqMFpR4JOhBn5Ns+cQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.3.5.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Pf8ImpJNJsQp6lw1Kvn6tC3hXkFVF8M0xcUo1aGFUZ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Movietheatre.exe" size="11804672">
+      <assemblyIdentity name="Movietheatre" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KhHfYigR8arWS9Whtj3va4OggA0XI/16+MjmokEBWkQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ml-IN\Movietheatre.resources.dll" size="4096">
+      <assemblyIdentity name="Movietheatre.resources" version="1.0.0.0" language="ml-IN" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wmNPRC6vmWeaZKj2qDdvjPlpCjKIaZTobsmye8+sl1k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MOVIE.accdb" size="2064384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uE3OiWrOk3QuzZ6CwrKfR65t6ULvdeY65ZhM51+/034=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Movietheatre.exe.config" size="693">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dKRx1mFLDAsJUCJ10DsqsbSGz5zmjewmvmK4CwVoFZs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="untitled.ico" size="304534">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AzmzxH8oRGjZ33unIsm22k0cXMccLMTN4tL7s9e8nHE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-42MPLS9\sebin" issuerKeyHash="9956b3c110c7aaad1028d1aebb2f51147176578f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d44HuBtjZe1naXR2kZbVYmOgV9qNH4XdkMhWXTHz3LA=</DigestValue></Reference></SignedInfo><SignatureValue>PRynEhk29b8PIjMVIhOqcxuIvlMcO7ljAPmdiC/etGN4YGloiYqEnAMeJHrMpWjxBrIjY3jSIjPsTPBs9zFqWlddVDjwgG1bsopxHdy3wrQO/6krWJCZtv+jO652thBmwoOgtKbOF1sOhx3f1gwWeM1xFdWnHaNPrcE3WpmXCxo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>svNYNIqssLQzcVZJYcDCh/itQ4WxP853ODqpoQEQc2mzmpLCAoANz2M94+FhoA4sT/2bRJAejvEGO4y2JCEiifpOXYpVdP5wRYo0uTJIUsP18GmAuCggwSfR5fe2AEeF3rNbhhMK92tNzWyWLuqISX5Aq191VsngEQQj6Nab9Yc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b0dcf3315d56c890dd851f8dda57a06362d5969176746967ed65631bb8078e77" Description="" Url=""><as:assemblyIdentity name="Movietheatre.exe" version="2.0.0.9" publicKeyToken="48350d0ae1794111" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-42MPLS9\sebin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lGpdIg4QMPZnZNgBPhDwJKAerkyZFFzOGkJYAYlWkCg=</DigestValue></Reference></SignedInfo><SignatureValue>AffU6t3MmnTwMIZPNJszzpQpYLUzBLbiw/yYYwM1m/rh7XJsDXLuqAqVkNlf74DEc9T5GKDqyl2xdM+KtTp66qIZnW9ELUIBvg7cVPj4DXYfKpYFd4Afs52L3LOVmvzLf3FNKdVHX/QRpi+8F796aaV6oCzfeqgVPB77VYzX1Qg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>svNYNIqssLQzcVZJYcDCh/itQ4WxP853ODqpoQEQc2mzmpLCAoANz2M94+FhoA4sT/2bRJAejvEGO4y2JCEiifpOXYpVdP5wRYo0uTJIUsP18GmAuCggwSfR5fe2AEeF3rNbhhMK92tNzWyWLuqISX5Aq191VsngEQQj6Nab9Yc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQcn3W5p+5ObZGbZxfFDSvijANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAMgBNAFAATABTADkAXABzAGUAYgBpAG4wHhcNMTYwMTI4MTQyNTEyWhcNMTcwMTI3MjAyNTEyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADQAMgBNAFAATABTADkAXABzAGUAYgBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALLzWDSKrLC0M3FWSWHAwof4rUOFsT/Odzg6qaEBEHNps5qSwgKADc9jPePhYaAOLE/9m0SQHo7xBjuMtiQhIon6Tl2KVXT+cEWKNLkySFLD9fBpgLgoIMEn0eX3tgBHhd6zW4YTCvdrTc1sli7qiEl+QKtfdVbJ4BEEI+jWm/WHAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARPdt0Eed5Zo0G1jy5RjUCljE06+j0toiKUDG5y6YSKYB3jZy/MQEwIaR6CbagjcfZY6MX7B5kSnm78ssEDCrnZclEiO7vmROmMX7Owgu05/XYNNb5l2++MJcKQLk/MfSMCDoQhmh/fGTZLOuFOWHc5KrvaTZiRS+gPnjnKtmR9E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
