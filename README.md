@@ -20,4 +20,4 @@ These two systems are connected either with a lan cable or a wireless network.
 
 The system can used to book tickets, cancel bookings, manage reservations, assign shows, prices, add movies, generate and view reports such as daily reports, monthly, weekly or reports for a specific period.
 
-
+This software brings the management easy.
